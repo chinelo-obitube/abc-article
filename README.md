@@ -66,6 +66,7 @@ abc-article
 5. Create the service using `kubectl apply -f service.yaml`.
 6. Run `kubectl get pods -n dev` to confirm the pods are running.
 7. Confirm the service is up and the APi is exposed on http://35.242.128.238:8080.
+8. Subsequently, test the apis.
 
 Extra steps or Improvements
 1. Increase the replica to 2 to handle traffic.
