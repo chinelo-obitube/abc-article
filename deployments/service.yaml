@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: abc-service
+  namespace: dev
+  labels:
+    app: abc
+spec:
+  type: LoadBalancer
+  ports:
+   - port: 8080
+     targetPort: 8080
+     protocol: TCP
+  selector:
+    app: abc
