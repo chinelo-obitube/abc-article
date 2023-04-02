@@ -67,6 +67,6 @@ abc-article
 6. Run `kubectl get pods -n dev` to confirm the pods are running.
 7. Confirm the service is up and the APi is exposed on http://35.242.128.238:8080.
 
-Extra steps
+Extra steps or Improvements
 1. Increase the replica to 2 to handle traffic.
-2. CI/CD to automate the deployment process with cloudrun or Github Actions.
+2. CI/CD to automate the deployment process with GCP cloudrun or Github Actions.
