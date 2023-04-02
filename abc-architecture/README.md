@@ -1,6 +1,6 @@
 # Architecture for ABC Tech
 
-![alt text](https://github.com/chinelo-obitube/abc-article/blob/main/abc-architecture/abc-architecture.drawio.png)
+![alt text](https://github.com/chinelo-obitube/abc-article/blob/main/abc-architecture/abc-architecture.jpg)
 
 1. A virtual private cloud (VPC) is used to create the private network to make it isolated from other users of Google cloud.
 2. GCP Compute Engine (GCE) is used to host the application and handle http traffic and will be created in a public network inside the vpc.
