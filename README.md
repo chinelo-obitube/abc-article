@@ -2,6 +2,8 @@
 ```
 abc-article
 ├─ Dockerfile
+├─abc-architecture
+|  ├─README.md
 ├─ README.md
 ├─ abc-article-api
 ├─ deployments
