@@ -44,7 +44,6 @@ Configure the cluster to work on the command line
 Extra steps
 1. Increase the replica to 2 to handle traffic.
 2. CI/CD to automate the deployment process with cloudrun.
-```
 
 ```
 abc-article
@@ -68,5 +67,4 @@ abc-article
       ├─ router.tf
       ├─ subnets.tf
       └─ vpc.tf
-
 ```
