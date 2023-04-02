@@ -24,6 +24,10 @@ abc-article
       ├─ subnets.tf
       └─ vpc.tf
 ```
+# ABC Tech Architecture
+
+![alt text](https://github.com/chinelo-obitube/abc-article/blob/main/abc-architecture/abc-architecture.jpg)
+
 # Docker
 
 1. Cd into abc-article-api folder. 
