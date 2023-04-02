@@ -60,7 +60,7 @@ To run in a detachable mood `docker run -p 8080:8080 devops/article-api:latest -
 1. Run the command :`gcloud container clusters get-credentials abctech --zone europe-west2-a --project my-bitnami-hosting` to configure the cluster on the command line
 2. Cd into deployments folder.
 3. Create the namespace using `kubectl apply -f namespace.yaml`.
-4. Create the deployment using `kubectl apply -f deployment.yaml`.
+4. Create the deployment using ```kubectl apply -f deployment.yaml```.
 5. Create the service using `kubectl apply -f service.yaml`.
 6. Run `kubectl get pods -n dev` to confirm the pods are running.
 7. Confirm the service is up and your application is exposed on http://35.242.128.238:8080
