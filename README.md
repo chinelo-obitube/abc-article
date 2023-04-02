@@ -69,5 +69,4 @@ abc-article
 
 Extra steps
 1. Increase the replica to 2 to handle traffic.
-2. CI/CD to automate the deployment process with cloudrun.
-
+2. CI/CD to automate the deployment process with cloudrun or Github Actions.
