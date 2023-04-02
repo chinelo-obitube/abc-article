@@ -26,9 +26,10 @@ abc-article
 ```
 # Docker
 
-1. Build the docker image using this command `docker build -t devops/article-api:latest .`
-2. Run the application: `docker run -p 8080:8080 devops/article-api:latest`.
-To run in a detachable mood `docker run -p 8080:8080 devops/article-api:latest -d ` .
+1. Cd into abc-article-api folder. 
+2. Build the docker image using this command `docker build -t devops/article-api:latest .`
+3. Run the application: `docker run -p 8080:8080 devops/article-api:latest`.
+4. To run in a detachable mood `docker run -p 8080:8080 devops/article-api:latest -d ` .
 
 # Terraform 
 
