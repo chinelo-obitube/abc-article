@@ -2,7 +2,7 @@
 ```
 abc-article
 ├─ Dockerfile
-├─abc-architecture
+├─ abc-architecture
 |  ├─README.md
 ├─ README.md
 ├─ abc-article-api
