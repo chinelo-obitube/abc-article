@@ -1,3 +1,27 @@
+# Project Structure
+```
+abc-article
+├─ Dockerfile
+├─ README.md
+├─ abc-article-api
+├─ deployments
+│  ├─ deployment.yaml
+│  ├─ namespace.yaml
+│  └─ service.yaml
+└─ terraform
+   ├─ gcr
+   │  ├─ main.tf
+   │  └─ provider.tf
+   └─ gke
+      ├─ .gitignore
+      ├─ main.tf
+      ├─ nat.tf
+      ├─ nodepools.tf
+      ├─ provider.tf
+      ├─ router.tf
+      ├─ subnets.tf
+      └─ vpc.tf
+```
 # Docker
 
 1. Build the docker image using this command `docker build -t devops/article-api:latest .`
@@ -45,26 +69,3 @@ Extra steps
 1. Increase the replica to 2 to handle traffic.
 2. CI/CD to automate the deployment process with cloudrun.
 
-```
-abc-article
-├─ Dockerfile
-├─ README.md
-├─ abc-article-api
-├─ deployments
-│  ├─ deployment.yaml
-│  ├─ namespace.yaml
-│  └─ service.yaml
-└─ terraform
-   ├─ gcr
-   │  ├─ main.tf
-   │  └─ provider.tf
-   └─ gke
-      ├─ .gitignore
-      ├─ main.tf
-      ├─ nat.tf
-      ├─ nodepools.tf
-      ├─ provider.tf
-      ├─ router.tf
-      ├─ subnets.tf
-      └─ vpc.tf
-```
