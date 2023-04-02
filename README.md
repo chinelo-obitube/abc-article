@@ -47,7 +47,7 @@ To run in a detachable mood `docker run -p 8080:8080 devops/article-api:latest -
 4. docker push gcr.io/my-bitnami-hosting/article-api.
 5. Check that the image has been successfully pushed to the container registry.
 
-
+# Kubernetes Deployment
 ## Create GKE cluster to deploy the API
 
 1. CD into terraform/gcr folder
@@ -56,8 +56,8 @@ To run in a detachable mood `docker run -p 8080:8080 devops/article-api:latest -
 4. Run `terraform apply -auto-approve` to create the kubernetes cluster
 5. Confirm the cluster has created and confirm by running the command `kubectl get nodes`.
 
-Configure the cluster to work on the command line
-1. Run the command :`gcloud container clusters get-credentials abctech --zone europe-west2-a --project my-bitnami-hosting`. 
+## Create the deployment manifests and deploy the API
+1. Run the command :`gcloud container clusters get-credentials abctech --zone europe-west2-a --project my-bitnami-hosting` to configure the cluster on the command line
 2. Cd into deployments folder.
 3. Create the namespace using `kubectl apply -f namespace.yaml`.
 4. Create the deployment using `kubectl apply -f deployment.yaml`.
