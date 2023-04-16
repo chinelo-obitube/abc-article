@@ -14,7 +14,7 @@ env:
 
 jobs:
   build-push-gcr:
-    name: Build and Push to GCR
+    name: Build and Push to DockerHub
     runs-on: ubuntu-latest
     env:
       IMAGE_NAME: article-api
